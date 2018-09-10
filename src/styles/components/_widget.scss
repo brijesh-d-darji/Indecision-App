@@ -1,0 +1,28 @@
+.widget {
+    background: $widget-dark;
+    padding:0  0 $m-size 0 ;
+    height: 100%;
+  
+   
+}
+
+.widget__message {
+    color:$big-button;
+  
+    padding: $l-size;
+    text-align: center;
+    border-bottom: 5px solid lighten($widget-dark,10%);
+
+}
+
+.widget-header {
+    background: $widget;
+    color: $big-button;
+    padding : $m-size;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget-header__title {
+    margin: 0;
+}

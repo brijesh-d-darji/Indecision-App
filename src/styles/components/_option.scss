@@ -1,0 +1,12 @@
+.option {
+    display: flex ;
+    justify-content: space-between ;
+    padding : $s-size $s-size;
+    border-bottom: 5px solid lighten($widget-dark,10%);
+}
+
+.option__text {
+    color:rgb(26, 25, 25);
+    font-weight: 549;
+    font-size: $m-size;
+}
